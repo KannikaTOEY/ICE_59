@@ -7,16 +7,18 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.kongsud.kannika.ice_59.MainActivity">
+    tools:context="ice_pbru.kongsud.kannika.ice_59.MainActivity"
+    android:background="@drawable/y44">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="Electronic Component"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:textSize="60dp"
-        android:gravity="center_horizontal" />
+        android:textSize="50dp"
+        android:gravity="center_horizontal"
+        android:background="#f7aec3" />
 
     <ListView
         android:layout_width="match_parent"
@@ -27,14 +29,19 @@
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
         android:paddingRight="20dp"
-        android:paddingBottom="20dp" />
+        android:paddingBottom="20dp"
+        android:background="#b6fad3ec"
+        android:scrollingCache="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="AboutMe"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:textSize="40dp"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:background="#e9f8b1e5" />
 </RelativeLayout>
